@@ -1,4 +1,4 @@
-apiVersion: "deplay.razee.io/v1alpha1"
+apiVersion: "deploy.razee.io/v1alpha1"
 kind: RemoteResource
 metadata:
   name: remote-configmap-exmaple
