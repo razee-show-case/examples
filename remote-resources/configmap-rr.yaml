@@ -1,7 +1,7 @@
 apiVersion: "deplay.razee.io/v1alpha1"
 kind: RemoteResource
 metadata:
-  name: remoteconfigmap
+  name: remote-configmap-exmaple
   namespace: default
 spec:
   requests:
