@@ -3,6 +3,8 @@ kind: RemoteResource
 metadata:
   name: remote-configmap-exmaple
   namespace: default
+  labels:
+    razee/watch-resource: debug
 spec:
   requests:
     - options:
