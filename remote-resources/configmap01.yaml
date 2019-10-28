@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  mydata: 010101
+kind: ConfigMap
+metadata:
+  name: sampleconfig01
+  labels:
+    razee/watch-resource: debug
