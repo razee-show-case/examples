@@ -1,0 +1,12 @@
+
+apiVersion: "deploy.razee.io/v1alpha1"
+kind: RemoteResource
+metadata:
+  name: remote-configmap-exmaple
+  namespace: default
+  labels:
+    razee/watch-resource: debug
+spec:
+  requests:
+    - options:
+        url: https://raw.githubusercontent.com/razee-show-case/examples/master/remote-resources/configmap01.yaml
