@@ -5,6 +5,9 @@ metadata:
   namespace: default
   labels:
     razee/watch-resource: debug
+  annotations:
+    razee.io/git-repo: "{{{GIT_REMOTE}}}"
+    razee.io/commit-sha: "{{TRAVIS_COMMIT}}"
 spec:
   requests:
     - options:
